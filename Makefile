@@ -22,7 +22,7 @@ mykernel.iso: mykernel.bin
 	echo 'set timeout=0'                      > iso/boot/grub/grub.cfg
 	echo 'set default=0'                     >> iso/boot/grub/grub.cfg
 	echo ''                                  >> iso/boot/grub/grub.cfg
-	echo 'menuentry "KamalOS" {' >> iso/boot/grub/grub.cfg
+	echo 'menuentry "MiniOS" {' >> iso/boot/grub/grub.cfg
 	echo '  multiboot /boot/mykernel.bin'    >> iso/boot/grub/grub.cfg
 	echo '  boot'                            >> iso/boot/grub/grub.cfg
 	echo '}'                                 >> iso/boot/grub/grub.cfg

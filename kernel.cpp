@@ -26,7 +26,7 @@ extern "C" void callConstructors()
 
 extern "C" void kernelMain(void* multiboot_structure, uint32_t magicnumber)
 {
-	printf("Welcome to KamalOS");
+	printf("Welcome to MiniOS");
 
 	GlobalDescriptorTable gdt;
 	
